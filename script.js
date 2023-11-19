@@ -22,3 +22,9 @@ function handleRemoval(liTag) {
     liTag.remove();
   });
 }
+button.addEventListener("click", () => {
+  let allLiTags = document.querySelectorAll("li");
+  for (let i = 0; i < allLiTags.length; i++) {
+    allLiTags[i].remove();
+  }
+});
