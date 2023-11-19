@@ -10,7 +10,7 @@ body {
   align-items: center;
 }
 input {
-  width: 40%;
+  width: 50%;
   margin: 20px auto;
   height: 30px;
   text-align: center;
@@ -19,7 +19,7 @@ input {
   border-radius: 15px;
 }
 ul {
-  width: 40%;
+  width: 45%;
   height: 70vh;
   border: 0.5px solid;
   overflow-y: scroll;
@@ -55,4 +55,12 @@ button:hover {
   background-color: white;
   color: #ff0000;
   border: 1px solid rgb(18, 16, 16);
+}
+@media screen and (max-width: 1200px) {
+  input {
+    width: 70%;
+  }
+  ul {
+    width: 65%;
+  }
 }
